@@ -1,6 +1,7 @@
 import cv2 as cv
 from extract_bounding_boxes import extract_parking_spots
 import os
+from dotenv import load_dotenv
 
 
 def generate_images(video_path, output_path, mask_path):
@@ -42,5 +43,6 @@ def generate_images(video_path, output_path, mask_path):
     print("Frames extracted successfully.")
 
 
+load_dotenv()
 generate_images(os.getenv('PATH_VIDEO'),
                 'images/dataset/', 'images/mask.png')

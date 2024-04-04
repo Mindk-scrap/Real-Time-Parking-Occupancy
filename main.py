@@ -53,14 +53,9 @@ while True:
         if spots_status[spot_index] == 1:
             cv.rectangle(frame, (box[0], box[1]),
                          (box[2], box[3]), (0, 0, 255), 2)
-            cv.putText(frame, str(spot_index), (box[0] + 10, box[1] + 20),
-                       cv.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
-
         else:
             cv.rectangle(frame, (box[0], box[1]),
                          (box[2], box[3]), (0, 255, 0), 2)
-            cv.putText(frame, str(spot_index), (box[0] + 10, box[1] + 20),
-                       cv.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
     cv.rectangle(frame, (50, 50), (50 + int(bar_length *
                  (occupied_spots / len(parking_spots))), 50 + bar_height), bar_color, -1)
     cv.putText(frame, f'Occupancy: {occupied_spots}/{len(parking_spots)}',

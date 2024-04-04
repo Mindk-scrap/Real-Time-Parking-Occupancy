@@ -1,0 +1,7 @@
+.env
+__pycache__/
+final_resnet_optimized.pt
+dataset_apres_cleaning/
+videos/
+dataset_apres_cleaning.zip
+frame_from_video.jpg

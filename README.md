@@ -39,11 +39,12 @@ In order to run the solution, follow these steps:
 
 ## Execution
 The video below exhibits a corpped segment derived from our parking spot detection solution, illustrating the real-time detection of parking spot availability:
-https://github.com/MayssaJaz/Real-time_Parking_Spot_Detection/assets/78932349/f133bc1b-7315-4b3d-8ce6-3c61a8c1f15b
+
 ## Areas to improve
 - Expanding our dataset by acquiring more data and labeling it, followed by retraining the model.
 - Exploring other detection alternatives with other classification models to explore their efficacy and suitability for our project's requirements.
 
+![Execution](https://github.com/MayssaJaz/Real-time_Parking_Spot_Detection/assets/78932349/aa98f87e-7291-4428-aa8b-1587e1fdc6d1)
 
 ## Resources
 - **Generated dataset:** https://drive.google.com/file/d/1QQesS39VYksLwumtQsjDIB2LWKTzPHV1/view?usp=sharing

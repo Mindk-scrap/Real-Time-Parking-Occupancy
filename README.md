@@ -42,6 +42,5 @@ To run the solution:
 
 
 ## Resources
-- [Generated Dataset](https://drive.google.com/file/d/1QQesS39VYksLwumtQsjDIB2LWKTzPHV1/view?usp=sharing)
-- [Used Videos] [Fine-tuned Model] (https://drive.google.com/drive/folders/16_WLNdXwp1jD1Ndj92M6NvgG-6Zcs6yp?usp=drive_link)
+- [Used Videos][Fine-tuned Model] (https://drive.google.com/drive/folders/16_WLNdXwp1jD1Ndj92M6NvgG-6Zcs6yp?usp=drive_link)
 

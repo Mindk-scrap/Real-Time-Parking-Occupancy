@@ -1,6 +1,7 @@
+from torchvision.models import resnet50
+from torchvision.models.resnet import ResNet50_Weights
 import torch
 import os
-
 
 # Function to load a pre-trained model
 
@@ -9,8 +10,7 @@ def load_model():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model_path = os.getenv('MODEL_PATH')
     state_dict = torch.load(model_path, map_location=device)
-    model = torch.hub.load('pytorch/vision:v0.10.0',
-                           os.getenv('MODEL_ID'), pretrained=True)
+    model = resnet50(weights=ResNet50_Weights.IMAGENET1K_V1)
     for params in model.parameters():
         params.requires_grad_ = False
     # add a new final layer

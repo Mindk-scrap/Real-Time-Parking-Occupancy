@@ -3,7 +3,7 @@ import cv2
 import shutil
 
 # Path to the folder containing images
-folder_path = 'dataset'
+folder_path = 'images/dataset'
 
 # List all files in the folder
 image_files = [f for f in os.listdir(

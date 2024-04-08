@@ -30,6 +30,7 @@ In order to run the solution, follow these steps:
     MASK_PATH=images/mask.png
     VIDEO_PATH=Path_to_video
     PATH_VIDEO=(optional for dataset generation) Path_to_shorter_video
+    IMAGE_PATH=images/image.png
  
    ```
 - Run the main script:

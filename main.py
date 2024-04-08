@@ -63,6 +63,9 @@ while True:
 
     number_frames += 1
 
+    # Resize the frame
+    frame = cv.resize(frame, (1080, 720))
+
     cv.imshow('frame', frame)
 
     if cv.waitKey(25) & 0xFF == ord('q'):
